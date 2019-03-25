@@ -1,0 +1,40 @@
+{
+  "name": "loaders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattStarakiewicz/loaders.git"
+  },
+  "keywords": [
+    "loader",
+    "js",
+    "babel",
+    "webpack",
+    "npm"
+  ],
+  "author": "Matt Star",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattStarakiewicz/loaders/issues"
+  },
+  "homepage": "https://github.com/MattStarakiewicz/loaders#readme",
+  "devDependencies": {
+    "babel-core": "^7.3.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^7.3.1",
+    "babel-preset-react": "^7.0.0",
+    "css-loader": "^2.1.1",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "style-loader": "^0.23.1"
+  },
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
+}
